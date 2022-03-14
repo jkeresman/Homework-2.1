@@ -1,0 +1,223 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation{
+    background-color: rgb(31, 32, 33);
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.navigation div{
+    padding: 13px;
+}
+
+#search{
+    padding: 8px;
+    border-radius: 15px;
+    border: none;
+}
+
+.background-picture{
+
+     background-image: linear-gradient(
+      45deg,
+      hsl(240deg 100% 20%) 0%,
+      hsl(289deg 100% 21%) 11%,
+      hsl(315deg 100% 27%) 22%,
+      hsl(329deg 100% 36%) 33%,
+      hsl(337deg 100% 43%) 44%,
+      hsl(357deg 91% 59%) 56%,
+      hsl(17deg 100% 59%) 67%,
+      hsl(34deg 100% 53%) 78%,
+      hsl(45deg 100% 50%) 89%,
+      hsl(55deg 100% 50%) 100%
+    );
+    height: 220px;
+    width: 80%;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 0 0 15px 15px;
+
+}
+
+.profile-picture{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    border: 2px solid rgb(31, 32, 33);
+    margin-bottom: 10px;
+}
+
+.user{
+    text-align: center;
+    color: rgb(17, 114, 212);
+    text-transform: uppercase;
+    font-size: 10px;
+    margin: 5px;
+}
+
+.add-friend-message-buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.add-friend-message-buttons button{
+    margin: 5px 5px;
+    background-color: rgb(17, 114, 212);
+    border: none;
+    color: white;
+    padding: 12px 28px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 20px;
+}
+
+.add-friend-message-buttons button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.main{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+
+}
+
+.about-section, .friends-section, .posts-section{
+    border-radius: 15px;
+    background-color: rgb(17, 114, 212);
+    padding: 10px;
+    margin:5px;
+    width: 70%;
+}
+
+h2{
+    font-size: 25px;
+    font-family:'Josefin Sans', sans-serif;
+    border-bottom: 2px solid #fff;
+}
+
+.about-section div, .number-of-friends, .posts div{
+    padding: 5px;
+ }
+
+.about-information, .friends, .posts{
+    margin: 10px;
+}
+
+.friends-profile-pictures{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.friends-profile-pictures img{
+    height: 120px;
+    width: 120px;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.name-surname{
+    background-color: #fff;
+    color: rgb(17, 114, 212);
+    margin: 5px 10px;
+    border-radius: 15px;
+    padding: 8px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.see-all-friends button, .like-comment-share-buttons button, .post-comment button{
+    background-color: #fff;
+    padding: 10px 25px;
+    font-size: 14px;
+    border-radius: 20px;
+    border: none;
+    margin: 5px 5px;
+}
+
+.see-all-friends button{
+    width: 20%;
+}
+
+.see-all-friends a, .like-comment-share-buttons button, .post-comment button{
+    font-family: sans-serif;
+    color: rgb(17, 114, 212);
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.see-all-friends button:hover, .like-comment-share-buttons button:hover, .post-comment button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+.posts-section img{
+    height: 400px;
+    width: 100%;
+    border-radius: 15px;
+    flex-grow: 2;
+}
+
+.post-comments{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+.comments{
+    background-color: #fff;
+    border-radius: 15px;
+    width: 250px;
+    height: auto;
+    margin: 5px;
+}
+
+.comments-section{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.comments .comment{
+    background-color: rgba(88, 92, 91,0.6);
+    color: #fff;
+    padding: 20px 10px;
+    margin: 5px;
+    font-size: 20px;
+    border-radius:15px;
+}
+
+.comment-text-area{
+    height: 110px;
+}
+
+#comment-text{
+    background-color: #fff;
+    border-radius: 15px;
+    border:none;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+}
+
